@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Vadim\PycharmProjects\lab3_os\build\CMakeFiles\fda93de8472756a74a89c0c1bb03088c\run.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Vadim\PycharmProjects\lab3_os\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Vadim\PycharmProjects\lab3_os\build\CMakeFiles\run" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B0BBDF2-2672-3838-806C-11E6CE765887}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

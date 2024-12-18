@@ -1,0 +1,24 @@
+^C:\USERS\VADIM\PYCHARMPROJECTS\LAB3_OS\BUILD\CMAKEFILES\FDA93DE8472756A74A89C0C1BB03088C\RUN.RULE
+setlocal
+cd C:\Users\Vadim\PycharmProjects\lab3_os
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python312\python.exe C:/Users/Vadim/PycharmProjects/lab3_os/script.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VADIM\PYCHARMPROJECTS\LAB3_OS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vadim/PycharmProjects/lab3_os -BC:/Users/Vadim/PycharmProjects/lab3_os/build --check-stamp-file C:/Users/Vadim/PycharmProjects/lab3_os/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
